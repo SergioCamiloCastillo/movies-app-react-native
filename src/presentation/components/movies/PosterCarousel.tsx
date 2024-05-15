@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {MovieEntity} from '../../../../domain/entities/movie.entity';
+import {MovieEntity} from '../../../domain/entities/movie.entity';
 import {ScrollView} from 'react-native-gesture-handler';
 import {MoviePoster} from './MoviePoster';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
-import {MovieEntity} from '../../../../domain/entities/movie.entity';
+import {MovieEntity} from '../../../domain/entities/movie.entity';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
-import {RootStackParams} from '../../../navigation/Navigation';
+import {RootStackParams} from '../../navigation/Navigation';
 interface Props {
   movie: MovieEntity;
   height?: number;

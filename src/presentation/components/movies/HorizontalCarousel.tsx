@@ -7,7 +7,7 @@ import {
   View,
 } from 'react-native';
 import {MovieEntity} from '../../../domain/entities/movie.entity';
-import {MoviePoster} from './movies/MoviePoster';
+import {MoviePoster} from './MoviePoster';
 interface Props {
   movies: MovieEntity[];
   title?: string;
